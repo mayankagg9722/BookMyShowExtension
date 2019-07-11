@@ -10,7 +10,7 @@ window.onload = function() {
   
   chrome.runtime.onMessage.addListener(
     function(request, sender) {
-      console.log(request)
+      console.log(request.message)
     });
 
   getTheatres(function(destinations,totalTheatres){
@@ -25,9 +25,7 @@ window.onload = function() {
 function getMylocation(destinationConcatenation){
   navigator.geolocation.getCurrentPosition(function(position){
     getMyaddress(position.coords.latitude,position.coords.longitude,function(myAddress){
-      chrome.runtime.sendMessage({message: "mydestinaitonresposnse",myAddress:myAddress,destinationConcatenation:destinationConcatenation}, (response) => {
-        console.log(response);
-      });
+      chrome.runtime.sendMessage({message: "mydestinaitonresposnse",myAddress:myAddress,destinationConcatenation:destinationConcatenation});
     })
   },function(error){
     logging(error)
