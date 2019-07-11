@@ -1,5 +1,5 @@
 {
-  "name": "Getting Started Example",
+  "name": "BookMyShow Theatre Locations",
   "version": "1.0",
   "description": "Build an Extension!",
   "permissions": ["<all_urls>","activeTab","tabs","declarativeContent", "storage","geolocation","https://www.google.com/","contextMenus",
