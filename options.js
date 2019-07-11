@@ -8,7 +8,6 @@ var api_key = "&key=AIzaSyCczSkhnEBtPw3A9VJ-gRSNARuSyjQxXvo";
 
 chrome.runtime.onMessage.addListener(
   function(request, sender) {
-    console.log(request)
     if(request.type == "mydestinaitonresposnse"){
       var jsonRes = JSON.parse(request.distanceResponse)
       var destinationDistance = jsonRes.rows[0].elements
@@ -16,7 +15,7 @@ chrome.runtime.onMessage.addListener(
         console.log(element.distance.text,element.duration.text)
       });
     } else if(request.type == "myAddress"){
-      chrome.runtime.sendMessage({message: "mydestinaitonresposnse",myAddress:request.myAddress,destinationConcatenation:request.destinationConcatenation});
+      chrome.runtime.sendMessage({type: "mydestinaitonresposnse",myAddress:request.myAddress,destinationConcatenation:request.destinationConcatenation});
     }else if(request.type == "theatres"){
       getMylocation(request.destinationConcatenation);
     }
