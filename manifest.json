@@ -2,7 +2,8 @@
   "name": "Getting Started Example",
   "version": "1.0",
   "description": "Build an Extension!",
-  "permissions": ["<all_urls>","activeTab","tabs","declarativeContent", "storage","geolocation"],
+  "permissions": ["<all_urls>","activeTab","tabs","declarativeContent", "storage","geolocation","https://www.google.com/","contextMenus",
+    "clipboardRead", "clipboardWrite"],
   "background": {
     "scripts": ["background.js"],
     "persistent": false
