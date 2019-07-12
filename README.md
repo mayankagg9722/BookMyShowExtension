@@ -7,7 +7,7 @@ So, I decided to make it bit easy going and to make a small extension for chrome
 
 This Chrome extension can help you to easily get information like distance and duration to reach the theatre while booking tickets on BookMyShow.
 
-Hope you all enjoy this!
+Hope you all enjoy using this!
 
 
 <img src="https://github.com/mayankagg9722/BookMyShowExtension/blob/master/demo.png" align="center" ></p>
