@@ -9,3 +9,9 @@ This Chrome extension can help you to easily get information like distance and d
 
 Hope you all enjoy this! 
 
+
+<img src="https://github.com/mayankagg9722/BookMyShowExtension/blob/master/demo.png" align="center" ></p>
+
+<img src="https://github.com/mayankagg9722/BookMyShowExtension/blob/master/demo1.png" align="center" ></p>
+
+
