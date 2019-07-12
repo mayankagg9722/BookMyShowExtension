@@ -14,7 +14,10 @@ chrome.runtime.onMessage.addListener(
         var parentDiv = document.getElementsByClassName("__venue-name")[i].parentElement
         var ele = document.createElement("span")
         ele.className = "__mydistance"
-        ele.innerText = destinationDistance[i].distance.text+" | "+ destinationDistance[i].duration.text
+        ele.style.fontWeight = "bold"
+        ele.style.fontSize = "12px"
+        ele.style.color = "red"
+        ele.innerText = "("+destinationDistance[i].distance.text+" | "+ destinationDistance[i].duration.text+")"
         ele.prepend(document.createElement("br"))
         parentDiv.append(ele)
       }
