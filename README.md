@@ -5,7 +5,7 @@ Recently, I faced the problem to get some important information like distance an
 
 So, I decided to make it bit easy going and to make a small extension for chrome to get this thing done.
 
-This Chrome extension can help you to easily get information like distance and duration to reach the theatre while booking tickets on BookMyShow.
+This Chrome extension can help you to easily get information like distance and duration to reach the theatre while booking tickets on BookMyShow. Api key is invalid in the code please don't try to exploit that now 😬.
 
 Hope you all enjoy using this!
 
