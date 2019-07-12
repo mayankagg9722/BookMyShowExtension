@@ -1,7 +1,7 @@
 
 # BookMyShowExtension
 
-Recently, I faced the problem to get some important information like distance and duration to reach the theatre while booking the tickets on BookMyShow, especially when you don't know much about that city. And it becomoes very irritating to copy each and every theatre on google maps to get this done and much more time consuming too.
+Recently, I faced the problem to get some important information like distance and duration to reach the theatre while booking the tickets on BookMyShow, especially when you don't know much about that city. And it becomes very irritating to copy each and every theatre on google maps to get this done and much more time consuming too.
 
 So, I decided to make it bit easy going and to make a small extension for chrome to get this thing done.
 
