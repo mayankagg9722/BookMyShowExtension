@@ -23,7 +23,7 @@ chrome.runtime.onMessage.addListener(
         sendCopyToContentScript(myAddress,request.type,request.destinationConcatenation)
       })
     }else if(request.type == "theatres"){
-      if(request.theatresIndex==0){
+      if(request.theatresIndex==1){
         destinations=[]
       }
       httpGetAsync(request.theatres,function(res){
@@ -75,4 +75,3 @@ function sendMessageToContentScript(message){
 //     console.log(tabs)
 //   });
 // });
-
