@@ -1,15 +1,14 @@
 {
   "name": "BookMyShow Theatre Locations",
   "version": "1.0",
-  "description": "Build an Extension!",
-  "permissions": ["<all_urls>","activeTab","tabs","declarativeContent", "storage","geolocation","https://www.google.com/","contextMenus",
-    "clipboardRead", "clipboardWrite"],
+  "description": "Extesnion to find the distance and duration from you location to the theatres",
+  "permissions": ["<all_urls>","activeTab","tabs","geolocation"],
   "background": {
     "scripts": ["background.js"],
     "persistent": false
   },
   "browser_action": {
-    "title": "Test"
+    "title": "book my show extension"
   },
   "content_scripts": [
     {
